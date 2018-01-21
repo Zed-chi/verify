@@ -1,0 +1,33 @@
+{
+<<<<<<< HEAD
+    "name": "zedchi/verify",
+    "description": "()->true falser",
+    "type": "library",
+    "license": "MIT",
+=======
+    "name": "zed-chi/par-parser",
+    "version": "0.2",
+    "description": "parentheses parser",
+    "keywords":["parser", "verifier"],
+    "license":"MIT",
+    "type": "library",
+    "minimum-stability": "dev",
+>>>>>>> 12568581b4281b243a8ca06f897b751c81dc2211
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "zed-chi@mail.ru"
+        }
+    ],
+<<<<<<< HEAD
+    "minimum-stability": "stable",
+    "require": {}
+=======
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "Zedchi\\":"src/"
+        }
+    }
+>>>>>>> 12568581b4281b243a8ca06f897b751c81dc2211
+}
