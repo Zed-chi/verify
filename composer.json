@@ -3,7 +3,7 @@
     "description": "()->true falser",
     "type": "library",
     "license": "MIT",
-    "version": "0.2",
+    "version": "0.1",
     "keywords":["parser", "verifier"],
     "authors": [
         {
