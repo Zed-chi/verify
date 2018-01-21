@@ -1,9 +1,9 @@
 <?php
-//q
-namespace Zedchi\Verify;
+namespace Zedchi;
 
 class Verify
 {
+    public function __construct(){}
     public function parse($str)
     {
         /**/
