@@ -4,15 +4,15 @@ namespace Zedchi;
 class Verify
 {
     public function __construct(){}
-    public function parse($str)
+    public function verify($str)
     {
         /**/
         $re = '/[^\(,\),\n,\t,\r," "]/';
         if (strlen($str) == 0){
-            return false;
+            throw new \InvalidArgumentException("Empty string");
         }
         if (preg_match($re, $str)) {
-            throw new \Exception("Unknown Symbol");
+            throw new \InvalidArgumentException("Unknown Symbol");
         }
         /**/
         
