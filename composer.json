@@ -11,7 +11,7 @@
             "email": "zed-chi@mail.ru"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4":{
