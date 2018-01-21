@@ -1,10 +1,6 @@
 {
     "name": "zedchi/verify",
-    "description": "()->true falser",
     "type": "library",
-    "license": "MIT",
-    "version": "0.1",
-    "keywords":["parser", "verifier"],
     "authors": [
         {
             "name": "Alex",
@@ -12,10 +8,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4":{
-            "Zedchi\\":"src/"
-        }
-    }
+    "require": {}
 }
