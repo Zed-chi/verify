@@ -3,7 +3,7 @@
     "description": "()->true falser",
     "type": "library",
     "license": "MIT",
-    "version": "0.2",
+    "version": "0.1",
     "keywords":["parser", "verifier"],
     "authors": [
         {
@@ -11,7 +11,7 @@
             "email": "zed-chi@mail.ru"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4":{
