@@ -1,12 +1,15 @@
 # Verify - "Скобко проверятель"
 ***
 
-##Установка
+## Установка
+
 Пример cmd:
+
 ```bash
    composer require zedchi/verify
 ```
-##Использование:
+## Использование:
+
 ```php
     $b = new Zedchi\Verify();
 
